@@ -19,9 +19,10 @@ while True:
         cetak_daftar_nilai()
 
     elif (c.lower() == 'k'):
+        print("Terima Kasih 🙏")
         break
 
     else:
         print("=== Pilih Sesuai Menu Yang Tersedia ===")
-tambah_data()
+
 

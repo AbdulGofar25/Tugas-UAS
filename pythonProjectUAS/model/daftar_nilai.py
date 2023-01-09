@@ -29,11 +29,3 @@ def ubah_data():
     else:
         print("Data tidak ditemukan!")
 
-def hapus_data():
-    print("====Hapus Data====")
-    nama = input("Masukkan Nama:  ")
-    if nama in data.keys():
-        del data[nama]
-        print("Data",nama,"Telah dihapus!")
-    else:
-        print("Data Mahasiswa Tidak Ada".format(nama))

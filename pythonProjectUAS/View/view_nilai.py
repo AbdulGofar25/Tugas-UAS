@@ -34,3 +34,12 @@ def cetak_hasil_pencarian():
         print("==============================================================")
     else:
         print("Data {0} Tidak Ada ".format(nama))
+
+def hapus_data():
+    print("====Hapus Data====")
+    nama = input("Masukkan Nama         : ")
+    if nama in data.keys():
+        del data[nama]
+        print("Data",nama,"Telah dihapus!")
+    else:
+        print("Data Mahasiswa Tidak Ada".format(nama))
