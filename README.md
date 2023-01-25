@@ -10,7 +10,7 @@
 ![Gambar 1](gambar/ss1.png) <br>
 
 ## Link video program di Yt
--link akan Menyusul
+https://youtu.be/uX3F-bNj2vE
 
 ## ••Buatalah Package Modul dengan struktur seperti berikut :
 √daftar_nilai.py berisi modul untuk: <br>
